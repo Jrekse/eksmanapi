@@ -46,6 +46,7 @@ fetch('https://remarkable-truffle-1bf78b.netlify.app/all').then(function (respon
 fetch('https://remarkable-truffle-1bf78b.netlify.app/poke').then(function (response) {
 
 	return response.json();
+    console.log(response.json)
 
 }).then(function (data) {
 
